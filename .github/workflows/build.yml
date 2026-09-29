@@ -30,4 +30,4 @@ jobs:
       run: cmake --build build --config Release
 
     - name: Run tests
-      notepad .github\workflows\build.yml
+      run: .\bin\Release\json_tests.exe
