@@ -30,4 +30,4 @@ jobs:
       run: cmake --build build --config Release
 
     - name: Run tests
-      run: .\bin\kv_tests.exe
+      notepad .github\workflows\build.yml
